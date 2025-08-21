@@ -1,0 +1,35 @@
+1. Team Performance 
+    Find teams with the highest average player rating and their dominant nationality.
+2. Position-Based Skill Analysis
+    - Compare average skills by position to identify position-specific strenghts
+3. Player Developement Tracking
+    - Idenitfy players with the most significant skill improvements year-over-year
+4. League Quality Comparison
+    - Compare average player ratings across different leagues
+5. Physical Profile by Position
+    - Analyze physical characteristics by player position
+
+
+6. Versatility Analysis
+    - Find most versatile players based on alternative positions thye can play
+7. Age Group Performance
+    - Compare performance metrics across different age groups
+8. Skill Balance Analysis
+    - Find players with the most balanced skill sets 
+9. National Team Strength
+    - Rank nationalities by their top players' average rating
+
+
+
+10. Technical Excellence vs Versatility Trade-off
+    - Analyze the relationship between technical skills and positional versatility
+11. Performance Momentum Indicators
+    - Create momentum indicators to predict future performance trends
+12. Skill Development Pattern Analysis
+    - Analyze which attributes tend to develop together and identify development patterns
+13. Team Chemistry Analysis
+    - Analyze team chemistry based on nationality diversity and skill complementarity
+14. Player Development Trajectory Analysis
+    - Advanced year-over-year development analysis with position-specific insights
+15. Optimal Formation Analysis
+    - Determine optimal team formations based on player strengths

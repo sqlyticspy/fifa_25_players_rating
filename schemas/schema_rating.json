@@ -1,0 +1,116 @@
+{
+    "name": "Fifa Players",
+    "baseSelector": "tr.Table_row__eoyUr",
+    "fields": [
+        {
+            "name": "player_url",
+            "selector": "td:nth-child(2) a",
+            "type": "attribute",
+            "attribute": "href"
+        },
+        {
+            "name": "image_url",
+            "selector": "td:nth-child(2) a div.Table_profileImageForeground__aWIxV img",
+            "type": "attribute",
+            "attribute": "src"
+        },
+        {
+            "name": "rank",
+            "selector": "td:first-child",
+            "type": "text"
+        },
+        {
+            "name": "player",
+            "selector": "td:nth-child(2)",
+            "type": "text"
+        },
+        {
+            "name": "nationality",
+            "selector": "td:nth-child(3) img.Picture_image__L8suG",
+            "type": "attribute",
+            "attribute": "alt"
+        },
+        {
+            "name": "team",
+            "selector": "td:nth-child(4) img.Picture_image__L8suG",
+            "type": "attribute",
+            "attribute": "alt"
+        },
+        {
+            "name": "position",
+            "selector": "td:nth-child(5)",
+            "type": "text"
+        },
+        {
+            "name": "rating",
+            "selector": "td:last-child table tr:first-child div.Table_statCellValueContent__eSIUF",
+            "type": "text"
+        },
+        {
+            "name": "pace",
+            "selector": "td:last-child table tr:nth-child(2) td:first-child span.Table_statCellValue__zn5Cx",
+            "type": "text"
+        },
+        {
+            "name": "pac_chg",
+            "selector": "td:last-child table tr:nth-child(2) td:first-child span.Table_statCellValue__zn5Cx span",
+            "type": "attribute",
+            "attribute": "class"
+        },
+        {
+            "name": "shooting",
+            "selector": "td:last-child table tr:nth-child(2) td:nth-child(2) span.Table_statCellValue__zn5Cx",
+            "type": "text"
+        },
+        {
+            "name": "sho_chg",
+            "selector": "td:last-child table tr:nth-child(2) td:nth-child(2) span.Table_statCellValue__zn5Cx span",
+            "type": "attribute",
+            "attribute": "class"
+        },
+        {
+            "name": "passing",
+            "selector": "td:last-child table tr:nth-child(2) td:nth-child(3) span.Table_statCellValue__zn5Cx",
+            "type": "text"
+        },
+        {
+            "name": "pas_chg",
+            "selector": "td:last-child table tr:nth-child(2) td:nth-child(3) span.Table_statCellValue__zn5Cx span",
+            "type": "attribute",
+            "attribute": "class"
+        },
+        {
+            "name": "dribbling",
+            "selector": "td:last-child table tr:nth-child(2) td:nth-child(4) span.Table_statCellValue__zn5Cx",
+            "type": "text"
+        },
+        {
+            "name": "dri_chg",
+            "selector": "td:last-child table tr:nth-child(2) td:nth-child(4) span.Table_statCellValue__zn5Cx span",
+            "type": "attribute",
+            "attribute": "class"
+        },
+        {
+            "name": "defending",
+            "selector": "td:last-child table tr:nth-child(2) td:nth-child(5) span.Table_statCellValue__zn5Cx",
+            "type": "text"
+        },
+        {
+            "name": "def_chg",
+            "selector": "td:last-child table tr:nth-child(2) td:nth-child(5) span.Table_statCellValue__zn5Cx span",
+            "type": "attribute",
+            "attribute": "class"
+        },
+        {
+            "name": "physicality",
+            "selector": "td:last-child table tr:nth-child(2) td:nth-child(6) span.Table_statCellValue__zn5Cx",
+            "type": "text"
+        },
+        {
+            "name": "phy_chg",
+            "selector": "td:last-child table tr:nth-child(2) td:nth-child(6) span.Table_statCellValue__zn5Cx span",
+            "type": "attribute",
+            "attribute": "class"
+        }
+    ]
+}

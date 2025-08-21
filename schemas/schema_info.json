@@ -1,0 +1,59 @@
+{
+    "name": "player's info",
+    "baseSelector": "main.Layout_main__2DYwN",
+    "fields": [
+        {
+            "name": "weak_foot",
+            "selector": "div.InformationPanel_panelInner__wwZWE > div div:nth-child(2)> span",
+            "type": "attribute",
+            "attribute": "aria-label"
+        },
+        {
+            "name": "skill_move",
+            "selector": "div.InformationPanel_panelInner__wwZWE > div div:nth-child(3) span",
+            "type": "attribute",
+            "attribute": "aria-label"
+        },
+        {
+            "name": "preferred_foot",
+            "selector": "div.InformationPanel_panelInner__wwZWE > div div:nth-child(4) span",
+            "type": "text"
+        },
+        {
+            "name": "height",
+            "selector": "div.InformationPanel_panelInner__wwZWE > div div:nth-child(5) span",
+            "type": "text"
+        },
+        {
+            "name": "weight",
+            "selector": "div.InformationPanel_panelInner__wwZWE > div div:nth-child(6) span",
+            "type": "text"
+        },
+        {
+            "name": "alt_positions",
+            "selector": "div.InformationPanel_panelInner__wwZWE > div div:nth-child(7) .Tag_tagInner__vFnF6 > div",
+            "type": "list",
+            "fields": [
+                {
+                    "name": "position",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "name": "age",
+            "selector": "div.ItemGrid_grid__cbrs8 div:has(div:contains('Age')) > span",
+            "type": "text"
+        },
+        {
+            "name": "league",
+            "selector": "div.ItemGrid_grid__cbrs8 div:has(div:contains('League')) > span",
+            "type": "text"
+        },
+        {
+            "name": "team",
+            "selector": "div.ItemGrid_grid__cbrs8 div:has(div:contains('Team')) > span",
+            "type": "text"
+        }
+    ]
+}
