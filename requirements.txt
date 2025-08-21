@@ -1,0 +1,4 @@
+pandas
+crawl4ai
+sqlalchemy
+pymysql
