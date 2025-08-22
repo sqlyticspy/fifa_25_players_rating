@@ -23,9 +23,9 @@ This is a complete end-to-end data project, covering the entire pipeline from da
 - SQLAlchemy – for database connection and data insertion
 
 **Project Structure**
-data/ # Contains extracted raw and processed data
-├── league_names.csv
-├── players_info.json
+data/ # Contains extracted raw and processed data  
+├── league_names.csv  
+├── players_info.json  
 └── players_rating.json
 
 schemas/ # JSON schemas for extracting data
